@@ -26,7 +26,7 @@ clock=0;
    scene.add(directionalLight);
  
    var gg = new THREE.PlaneGeometry( 16000, 16000 );
-   var gt = THREE.ImageUtils.loadTexture( "textures/terrain/grasslight-big.jpg" );
+   var gt = THREE.ImageUtils.loadTexture( "https://raw.githubusercontent.com/codesorc/codesorc.github.io/master/textures/terrain/grasslight-big.jpg" );
 	 var gm = new THREE.MeshPhongMaterial( { color: 0xffffff, map: gt } );
    var ground = new THREE.Mesh( gg, gm );
 	 scene.add(ground);
@@ -39,7 +39,7 @@ clock=0;
         velocityStyle  : Type.CUBE,
         velocityBase   : new THREE.Vector3( 20, 0, 0 ),
         velocitySpread : new THREE.Vector3( 0.5, 3, 3),
-        particleTexture : THREE.ImageUtils.loadTexture( 'Smoke10.png' ),
+        particleTexture : THREE.ImageUtils.loadTexture( 'https://raw.githubusercontent.com/codesorc/codesorc.github.io/master/Smoke10.png' ),
         sizeBase    : 0.2,
         sizeSpread  : 0.2,   
         colorBase   : new THREE.Vector3(1.0, 1.0, 1.0), // H,S,L
@@ -58,7 +58,7 @@ clock=0;
         velocityBase   : new THREE.Vector3( 0, 0, 0 ),
         velocitySpread : new THREE.Vector3( 0, 0, 0 ),
          
-        particleTexture : THREE.ImageUtils.loadTexture( 'Smoke10.png' ),
+        particleTexture : THREE.ImageUtils.loadTexture( 'https://raw.githubusercontent.com/codesorc/codesorc.github.io/master/Smoke10.png' ),
    
         sizeBase    : 1,
         sizeSpread  : 1,   
@@ -81,7 +81,7 @@ clock=0;
         velocityBase   : new THREE.Vector3( 1, 0, 0 ),
         velocitySpread : new THREE.Vector3( 0.0, 0.001, 0.001),
          
-        particleTexture : THREE.ImageUtils.loadTexture( 'Smoke10.png' ),
+        particleTexture : THREE.ImageUtils.loadTexture( 'https://raw.githubusercontent.com/codesorc/codesorc.github.io/master/Smoke10.png' ),
    
         sizeBase    : 0.4,
         sizeSpread  : 0.4,   
